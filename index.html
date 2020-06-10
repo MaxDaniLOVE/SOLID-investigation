@@ -19,6 +19,23 @@
     <h3 class="print-title">Choose printer</h3>
     <div class='print-field'></div>
   </div>
+  <div id="abstract-factory">
+    <form class="change-type">
+      <input type="radio" id="sedan" name="type" value="sedan">
+      <label for="sedan">Sedan</label><br>
+      <input type="radio" id="hatchback" name="type" value="hatchback">
+      <label for="hatchback">Hatchback</label><br>
+    </form>
+    <form class="change-factory">
+      <input type="radio" id="toyota" name="factory" value="toyota">
+      <label for="toyota">Toyota</label><br>
+      <input type="radio" id="mazda" name="factory" value="mazda">
+      <label for="mazda">Mazda</label><br>
+    </form>
+    <h3 class="type-result"></h3>
+    <h3 class="factory-result"></h3>
+  </div>
   <script src="./strategy.js"></script>
+  <script src="./abstractFactory.js"></script>
 </body>
 </html>
